@@ -1,3 +1,37 @@
+### Sobre
+
+Projeto desenvolvido durante curso de Angular, pra colocar em prática alguns conceitos!
+
+Trata-se de uma SPA com uma página para efetuar uma transferência banária, e uma página de extrato que reune todas as movimentações realizadas!
+
+### Pré requisitos
+
+- Instalação do [Node.js](https://nodejs.org/en/download/) para usar [Node Package Manager](https://www.npmjs.com/get-npm)(npm).
+
+### Configurando e executando
+
+- Instale o Angular CLI
+```
+npm install -g @angular/cli
+```
+
+- De dentro da pasta raíz do projeto, use o seguinte comando para rodar o projeto .
+```
+ng serve
+```
+(O acesso estará disponível através do `http://localhost:4200/`)
+
+- Para fins de desenvolvimento, utilizamos no projeto um json-server para simular a API, para executa-lo acesse a pasta `dados` e use o comando
+```
+json-server --watch db.json
+```
+
+
+
+
+Informações adicionais do próprio Angular-Cli ->
+
+
 # Bytebank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
