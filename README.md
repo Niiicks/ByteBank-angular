@@ -15,10 +15,16 @@ Trata-se de uma SPA com uma página para efetuar uma transferência banária, e 
 npm install -g @angular/cli
 ```
 
+- De dentro da pasta raíz do projeto, atualize as bibliotecas .
+```
+npm install
+```
+
 - De dentro da pasta raíz do projeto, use o seguinte comando para rodar o projeto .
 ```
 ng serve
 ```
+
 (O acesso estará disponível através do `http://localhost:4200/`)
 
 - Para fins de desenvolvimento, utilizamos no projeto um json-server para simular a API, para executa-lo acesse a pasta `dados` e use o comando
